@@ -7,6 +7,7 @@ function Example() {
   const [count2, setCountTwo] = useState(0); 
   const [className, setClass] = useState('');
   const limit = 3;  // some arbitrary limit
+  
   useEffect(() => {
     count2 >= limit ? setClass('red-color') : setClass('');
   });
