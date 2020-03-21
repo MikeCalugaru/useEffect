@@ -8,7 +8,7 @@ function Example() {
   
   useEffect(() => {
     count2 >= limit ? setClass('red-color') : setClass('');
-  }, [count2]);
+  }, [count2]);  // second argument to useEffect
 
   return (
     <div>
